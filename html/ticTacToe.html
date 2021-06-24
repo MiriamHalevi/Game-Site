@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="../css/ticTacToe.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="nav">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+
+      <a class="navbar-brand" href="#" id="linkName">
+        שלום ,אורח
+      </a>
+      <!-- Links -->
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="linkConnect">התחבר/הרשם</a>
+        </li>
+        <li class="nav-item">
+          <a href='../html/homePage.html' class="nav-link" href="#" id="home"> עמוד הבית</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <section>
+    <h1>Tic Tac Toe</h1>
+    <h2 class="game--status"></h2>
+    <button id="game--restart">restart</button>
+    <table>
+      <tr>
+        <td data-cell-index="0"></td>
+        <td data-cell-index="1" class="vert"></td>
+        <td data-cell-index="2"></td>
+      </tr>
+      <tr>
+        <td data-cell-index="3" class="hori"></td>
+        <td data-cell-index="4" class="vert hori"></td>
+        <td data-cell-index="5" class="hori"></td>
+      </tr>
+      <tr>
+        <td data-cell-index="6"></td>
+        <td data-cell-index="7" class="vert"></td>
+        <td data-cell-index="8"></td>
+      </tr>
+    </table>
+  </section>
+  <script src="../script/homePage.js"></script>
+  <script src="../script/ticTacToe.js"></script>
+</body>
+
+</html>

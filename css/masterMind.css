@@ -1,0 +1,134 @@
+.colorBar>div,
+.answer>div,
+.points>div {
+    border-radius: 50px;
+    border: 1px solid black;
+    height:30px;
+    width: 30px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+.colorBar>div{
+    margin-right: 2px;
+}
+
+.points>div {
+    height: 8px;
+    width: 8px;
+    margin-right: 5px;
+    display: flex;
+justify-items: flex-end;
+/* background-color: honeydew; */
+
+}
+
+.colorBar,
+.container,
+.container div {
+    display: flex;
+    justify-content: center;
+}
+.colorBar div>div,.answer div>div{
+ height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+#red {
+    background-color: red;
+    /* height:30px;
+    width: 30px;
+    border-radius: 50px; */
+
+}
+
+#blue {
+    background-color: blue;
+   
+}
+
+#yellow {
+    background-color: yellow;
+    /* height:30px;
+    width: 30px;
+    border-radius: 50px; */
+}
+
+#palevioletred {
+    background-color: palevioletred;
+    /* height:30px;
+    width: 30px;
+    border-radius: 50px; */
+}
+
+#green {
+    background-color: green;
+    /* height:30px;
+    width: 30px;
+    border-radius: 50px; */
+}
+
+#black {
+    background-color: black;
+    /* height:30px;
+    width: 30px;
+    border-radius: 50px; */
+}
+
+#purple {
+    background-color: purple;
+    /* height:30px;
+    width: 30px;
+    border-radius: 50px; */
+}
+
+#turquoise {
+    background-color: turquoise;
+    /* height:30px;
+    width: 30px;
+    border-radius: 50px; */
+}
+body > section{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px; 
+    margin: auto;
+    /* margin-top: 5px; */
+    padding-top: 3px;
+ 
+}  
+ @media screen and (max-width: 650px) {
+    body > section{
+    margin-left:15%; } 
+ }  
+ @media screen and (max-width: 720px) {
+    body > section{
+    margin-left:20%; } 
+ }  
+
+section{
+    margin-top: 5px;
+   
+}
+h1{
+    font-family:  Chiller;
+    color: deeppink;
+    text-align: center;
+    font-size:60px;
+}
+body{
+     background-color: lemonchiffon;
+    /* direction: rtl; */
+}
+button{
+    margin-left: 55px;
+  margin-top: 10px;
+  background-color:lightpink;
+ 
+}
+.navbar{
+    direction: rtl;
+}
+
